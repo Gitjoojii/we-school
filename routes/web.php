@@ -26,3 +26,7 @@ Route::get('/', function () {
 Route::get('/about', function () {
     return view('frontend.about');
 });
+
+Route::get('/aca', function () {
+    return view('frontend.aca');
+});

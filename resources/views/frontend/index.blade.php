@@ -81,7 +81,7 @@
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-
+            
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item active">
@@ -99,7 +99,8 @@
                             <li><a class="dropdown-item" href="news-detail.html">Graduate</a></li>
                         </ul>
                     </li>
-
+                    
+                            
 
                     <li class="nav-item">
                         <a class="nav-link" href="/about">About</a>
@@ -197,48 +198,31 @@
                 <div class="row">
 
                     <div class="col-lg-10 col-12 text-center mx-auto">
-                        <h2 class="mb-5">Welcome to Kind Heart Charity</h2>
+                        <h1 class="mb-5">Programs</h1>
+                        <h3 class="mb-5">Check out our available course.</h3>
                     </div>
 
-                    <div class="col-lg-3 col-md-6 col-12 mb-4 mb-lg-0">
+                    <div class="col-6">
                         <div class="featured-block d-flex justify-content-center align-items-center">
                             <a href="donate.html" class="d-block">
                                 <img src="images/icons/hands.png" class="featured-block-image img-fluid" alt="">
 
-                                <p class="featured-block-text">Become a <strong>volunteer</strong></p>
+                                <p class="featured-block-text"><strong>Undergraduate</strong> Degree</p>
                             </a>
                         </div>
                     </div>
 
-                    <div class="col-lg-3 col-md-6 col-12 mb-4 mb-lg-0 mb-md-4">
+                    <div class="col-6">
                         <div class="featured-block d-flex justify-content-center align-items-center">
                             <a href="donate.html" class="d-block">
                                 <img src="images/icons/heart.png" class="featured-block-image img-fluid" alt="">
 
-                                <p class="featured-block-text"><strong>Caring</strong> Earth</p>
+                                <p class="featured-block-text"><strong>Graduate</strong> Degree</p>
                             </a>
                         </div>
                     </div>
 
-                    <div class="col-lg-3 col-md-6 col-12 mb-4 mb-lg-0 mb-md-4">
-                        <div class="featured-block d-flex justify-content-center align-items-center">
-                            <a href="donate.html" class="d-block">
-                                <img src="images/icons/receive.png" class="featured-block-image img-fluid" alt="">
-
-                                <p class="featured-block-text">Make a <strong>Donation</strong></p>
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 col-12 mb-4 mb-lg-0">
-                        <div class="featured-block d-flex justify-content-center align-items-center">
-                            <a href="donate.html" class="d-block">
-                                <img src="images/icons/scholarship.png" class="featured-block-image img-fluid" alt="">
-
-                                <p class="featured-block-text"><strong>Scholarship</strong> Program</p>
-                            </a>
-                        </div>
-                    </div>
+                    
 
                 </div>
             </div>
@@ -372,13 +356,7 @@
                     </div>
 
                     <div class="col-lg-4 col-12 mx-auto">
-                        <form class="custom-form search-form" action="#" method="post" role="form">
-                            <input class="form-control" type="search" placeholder="Search" aria-label="Search">
-
-                            <button type="submit" class="form-control">
-                                <i class="bi-search"></i>
-                            </button>
-                        </form>
+                        
 
                         <h5 class="mt-5 mb-3">Recent news</h5>
 
@@ -389,6 +367,7 @@
                                         class="news-image img-fluid" alt="">
                                 </a>
                             </div>
+                            
 
                             <div class="news-block-two-col-info">
                                 <div class="news-block-title mb-2">
@@ -403,6 +382,7 @@
                                     </p>
                                 </div>
                             </div>
+                            
                         </div>
 
                         <div class="news-block news-block-two-col d-flex mt-4">
@@ -428,77 +408,9 @@
                             </div>
                         </div>
 
-                        <div class="category-block d-flex flex-column">
-                            <h5 class="mb-3">Categories</h5>
+                        
 
-                            <a href="#" class="category-block-link">
-                                Drinking water
-                                <span class="badge">20</span>
-                            </a>
-
-                            <a href="#" class="category-block-link">
-                                Food Donation
-                                <span class="badge">30</span>
-                            </a>
-
-                            <a href="#" class="category-block-link">
-                                Children Education
-                                <span class="badge">10</span>
-                            </a>
-
-                            <a href="#" class="category-block-link">
-                                Poverty Development
-                                <span class="badge">15</span>
-                            </a>
-
-                            <a href="#" class="category-block-link">
-                                Clothing Donation
-                                <span class="badge">20</span>
-                            </a>
-                        </div>
-
-                        <div class="tags-block">
-                            <h5 class="mb-3">Tags</h5>
-
-                            <a href="#" class="tags-block-link">
-                                Donation
-                            </a>
-
-                            <a href="#" class="tags-block-link">
-                                Clothing
-                            </a>
-
-                            <a href="#" class="tags-block-link">
-                                Food
-                            </a>
-
-                            <a href="#" class="tags-block-link">
-                                Children
-                            </a>
-
-                            <a href="#" class="tags-block-link">
-                                Education
-                            </a>
-
-                            <a href="#" class="tags-block-link">
-                                Poverty
-                            </a>
-
-                            <a href="#" class="tags-block-link">
-                                Clean Water
-                            </a>
-                        </div>
-
-                        <form class="custom-form subscribe-form" action="#" method="post" role="form">
-                            <h5 class="mb-4">Newsletter Form</h5>
-
-                            <input type="email" name="subscribe-email" id="subscribe-email" pattern="[^ @]*@[^ @]*"
-                                class="form-control" placeholder="Email Address" required>
-
-                            <div class="col-lg-12 col-12">
-                                <button type="submit" class="form-control">Subscribe</button>
-                            </div>
-                        </form>
+                        
                     </div>
 
                 </div>
@@ -646,12 +558,7 @@
             <div class="container">
                 <div class="row">
 
-                    <div class="col-lg-6 col-md-7 col-12">
-                        <p class="copyright-text mb-0">Copyright © 2036 <a href="#">Kind Heart</a> Charity Org.
-                            Design: <a href="https://templatemo.com" target="_blank">TemplateMo</a><br>Distribution:
-                            <a href="https://themewagon.com">ThemeWagon</a>
-                        </p>
-                    </div>
+                    
 
                     <div class="col-lg-6 col-md-5 col-12 d-flex justify-content-center align-items-center mx-auto">
                         <ul class="social-icon">
@@ -672,7 +579,7 @@
                             </li>
 
                             <li class="social-icon-item">
-                                <a href="https://youtube.com/templatemo" class="social-icon-link bi-youtube"></a>
+                                <a href="https://youtube.com/" class="social-icon-link bi-youtube"></a>
                             </li>
                         </ul>
                     </div>

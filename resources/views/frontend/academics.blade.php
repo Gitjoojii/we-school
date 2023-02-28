@@ -95,7 +95,6 @@
 
                         <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="navbarLightDropdownMenuLink">
                             <li><a class="dropdown-item" href="news.html">Undergraduate</a></li>
-
                             <li><a class="dropdown-item" href="news-detail.html">Graduate</a></li>
                         </ul>
                     </li>
